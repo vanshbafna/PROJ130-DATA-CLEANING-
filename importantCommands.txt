@@ -1,0 +1,22 @@
+D:\projects_vansh\module3\PROJ130>python -m venv venv
+
+D:\projects_vansh\module3\PROJ130>venv\Scripts\activate.bat
+
+(venv) D:\projects_vansh\module3\PROJ130>pip install pandas
+Collecting pandas
+  Downloading pandas-1.1.4-cp38-cp38-win32.whl (7.9 MB)
+     |████████████████████████████████| 7.9 MB 731 kB/s
+Collecting numpy>=1.15.4
+  Downloading numpy-1.19.4-cp38-cp38-win32.whl (11.0 MB)
+     |████████████████████████████████| 11.0 MB 79 kB/s
+Collecting pytz>=2017.2
+  Downloading pytz-2020.4-py2.py3-none-any.whl (509 kB)
+     |████████████████████████████████| 509 kB 16 kB/s
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting six>=1.5
+  Using cached six-1.15.0-py2.py3-none-any.whl (10 kB)
+Installing collected packages: numpy, pytz, six, python-dateutil, pandas
+Successfully installed numpy-1.19.4 pandas-1.1.4 python-dateutil-2.8.1 pytz-2020.4 six-1.15.0
+WARNING: You are using pip version 20.1.1; however, version 20.2.4 is available.
+You should consider upgrading via the 'd:\projects_vansh\module3\proj130\venv\scripts\python.exe -m pip install --upgrade pip' command.
